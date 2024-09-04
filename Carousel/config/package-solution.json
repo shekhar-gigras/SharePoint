@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "masdar-city-carousel-client-side-solution",
+    "id": "63385037-be74-4d09-861a-534349379b13",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "MasdarCity-Carousel description"
+      },
+      "longDescription": {
+        "default": "MasdarCity-Carousel description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "masdar-city-carousel Feature",
+        "description": "The feature that activates elements of the masdar-city-carousel solution.",
+        "id": "77012dd1-b9ce-49a4-8729-8c2201a02315",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/masdar-city-carousel.sppkg"
+  }
+}
