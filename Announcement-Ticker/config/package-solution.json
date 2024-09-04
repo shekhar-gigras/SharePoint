@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "masdar-city-announcement-ticker-client-side-solution",
+    "id": "788af407-a007-44db-9ab2-3960265655a8",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "MasdarCity-Announcement-Ticker description"
+      },
+      "longDescription": {
+        "default": "MasdarCity-Announcement-Ticker description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "masdar-city-announcement-ticker Feature",
+        "description": "The feature that activates elements of the masdar-city-announcement-ticker solution.",
+        "id": "b442d3a5-108b-4596-b865-2d3a51466671",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/masdar-city-announcement-ticker.sppkg"
+  }
+}

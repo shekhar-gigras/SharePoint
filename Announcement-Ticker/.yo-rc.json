@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.4",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "masdar-city-announcement-ticker",
+    "libraryId": "788af407-a007-44db-9ab2-3960265655a8",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "MasdarCity-Announcement-Ticker",
+    "solutionShortDescription": "MasdarCity-Announcement-Ticker description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "masdar-city-quick-tools-client-side-solution",
+    "id": "373366d3-077d-4d4c-8402-0db7ae11402e",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "MasdarCity-QuickTools description"
+      },
+      "longDescription": {
+        "default": "MasdarCity-QuickTools description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "masdar-city-quick-tools Feature",
+        "description": "The feature that activates elements of the masdar-city-quick-tools solution.",
+        "id": "a729aef7-2de0-4ba2-9c47-2f127c9cc256",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/masdar-city-quick-tools.sppkg"
+  }
+}

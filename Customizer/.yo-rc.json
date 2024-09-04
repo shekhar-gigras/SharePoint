@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.4",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "masdar-city-site-customizer",
+    "libraryId": "ad0d3c46-e198-47c9-a539-fcb8477cbcf9",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "MasdarCity-Site-Customizer",
+    "solutionShortDescription": "MasdarCity-Site-Customizer description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}

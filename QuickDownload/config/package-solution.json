@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "masdar-city-quick-download-client-side-solution",
+    "id": "93b75d6a-5919-4aa5-8316-52dddc4a8de6",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "MasdarCity-QuickDownload description"
+      },
+      "longDescription": {
+        "default": "MasdarCity-QuickDownload description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "masdar-city-quick-download Feature",
+        "description": "The feature that activates elements of the masdar-city-quick-download solution.",
+        "id": "8a199dc8-d82c-4818-ab57-79c74c3f64d7",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/masdar-city-quick-download.sppkg"
+  }
+}

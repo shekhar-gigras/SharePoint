@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "masdar-city-new-joiners-client-side-solution",
+    "id": "a467dd2f-320b-484b-898b-6fee630ee8b4",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "MasdarCity-NewJoiners description"
+      },
+      "longDescription": {
+        "default": "MasdarCity-NewJoiners description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "masdar-city-new-joiners Feature",
+        "description": "The feature that activates elements of the masdar-city-new-joiners solution.",
+        "id": "f379547f-24db-408f-ba3b-4edd35d7907b",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/masdar-city-new-joiners.sppkg"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "masdar-city-my-tools-client-side-solution",
+    "id": "f2a2f47e-6f43-4436-9d12-a5f657d3d576",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "MasdarCity-My-Tools description"
+      },
+      "longDescription": {
+        "default": "MasdarCity-My-Tools description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "masdar-city-my-tools Feature",
+        "description": "The feature that activates elements of the masdar-city-my-tools solution.",
+        "id": "4e114387-e619-4f43-b2ea-7b84e0f3efa5",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/masdar-city-my-tools.sppkg"
+  }
+}

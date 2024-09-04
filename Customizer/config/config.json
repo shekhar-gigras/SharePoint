@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "assets-customizer-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/assetsCustomizer/AssetsCustomizerApplicationCustomizer.js",
+          "manifest": "./src/extensions/assetsCustomizer/AssetsCustomizerApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AssetsCustomizerApplicationCustomizerStrings": "lib/extensions/assetsCustomizer/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}

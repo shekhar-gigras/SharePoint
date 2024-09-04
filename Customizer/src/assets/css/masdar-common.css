@@ -1,0 +1,514 @@
+.Canvas > :first-child {
+  max-width: 65% !important;
+}
+
+@media screen and (min-width: 1280px) {
+  .a_a_50a7110f.b_a_50a7110f .f_a_50a7110f {
+    width: 35% !important;
+  }
+}
+
+div[data-automation-id="webPartHeader"] {
+  background-color: rgb(0, 168, 169);
+  padding-left: 25px;
+  padding-top: 5px;
+}
+
+div[data-automation-id="CanvasControl"]:last-child() {
+  margin: 0;
+}
+
+.root-145.root-145.root-145.root-145.root-145 {
+  background-color: #ffff;
+}
+
+div[data-automation-id^="QuickLinksWebPart:"] {
+  border: 1px solid rgb(0, 168, 169);
+}
+
+.f1i9syfy.captionElement #CaptionElementView {
+  color: white;
+}
+
+div[role="presentation"].ms-List-cell {
+  width: 20%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#SiteHeaderTitleMinimal a {
+  display: none;
+}
+
+div [id="spSiteHeader"] {
+  display: none;
+}
+
+div[data-sp-feature-tag="Site header host"] {
+  border-bottom-style: none;
+  display: none;
+}
+/* div[data-automationid="spSiteHeader"]{
+    box-shadow: 0px -20px 9px 0 rgba(0, 0, 0, 0.19), 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+}
+
+div[id="spSiteHeader"]{
+    box-shadow: 0px -20px 9px 0 rgba(0, 0, 0, 0.19), 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+} */
+
+div[data-automation-id="carouselOuterContainer"] + div:nth-child(2) {
+  display: none;
+}
+
+.ButtonCard {
+  background-color: rgb(0, 168, 169) !important;
+}
+
+.ms-HubNav-enhancedMegaMenu {
+  line-height: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 10px 10px 10px 10px;
+}
+
+[dir="ltr"] .ms-HorizontalNavItems-list > span:hover {
+  background-color: rgb(0, 168, 169);
+  color: white;
+}
+
+[dir="ltr"] .ms-HorizontalNavItems-list > span > a:hover {
+  background-color: rgb(0, 168, 169);
+  color: white;
+}
+
+/*Carosel Right Text */
+.carosel-right-text1 {
+  min-height: calc(400px - 0px);
+  background-color: rgb(0, 168, 169) !important;
+}
+.carosel-right-text2 {
+  align-self: center;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.carosel-right-text3 {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.carosel-right-text4 {
+  color: #ffffff;
+}
+
+.carosel-right-text5 {
+  font-size: 17px;
+  color: #ffffff;
+}
+
+.carosel-right-text6 {
+  font-size: 18px;
+}
+
+.carosel-right-text7 {
+  font-size: 18px;
+  color: #ffffff;
+}
+.carosel-right-text8 {
+  border-radius: 0 !important;
+  border-width: 1px !important;
+  background-color: rgb(255, 255, 255) !important;
+  border-color: rgb(215, 215, 215) !important;
+  transition: all 0.3s ease;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  color: #fff;
+  font-weight: 400;
+  line-height: 1.42857;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  text-decoration: none;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  color: black;
+}
+
+/* staff Notice */
+
+.staff-notice1 {
+  background-color: rgb(0, 168, 169);
+}
+.staff-notice2 {
+  display: inline-block;
+  color: grey !important;
+  background-color: white !important;
+}
+.staff-notice3 {
+  border-color: transparent transparent transparent white;
+}
+.staff-notice4 {
+  background-color: rgb(0, 168, 169) !important;
+  left: 177px !important;
+}
+
+/*Share Point */
+.masdarcity-tickers {
+  position: relative;
+  line-height: 2.5em;
+  overflow: hidden;
+  z-index: 0;
+  text-align: left;
+}
+
+.masdarcity-ticker {
+  position: absolute;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  left: 1.5em;
+  right: 2em;
+}
+
+.masdarcity-tickers-title {
+  display: inline-block;
+  /* color: #fff; */
+  padding: 0 20px;
+  font-weight: 700;
+  position: relative;
+  overflow: visible;
+}
+
+.masdarcity-tickers-title > .masdarcity-tickers-tick {
+  display: block;
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  margin-top: -0.625em;
+  border-style: solid;
+  border-width: 0.625em 0 0.625em 0.625em;
+  z-index: 1;
+}
+
+.masdarcity-tickers-buttons {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 2.1em;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.masdarcity-tickers:hover .masdarcity-tickers-buttons {
+  opacity: 1;
+}
+
+.masdarcity-tickers-button-next,
+.masdarcity-tickers-button-prev {
+  display: inline-block;
+  width: 1em;
+  height: 2.5em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  opacity: 0.3;
+  transition: opacity 0.3s ease;
+}
+
+.masdarcity-tickers-button-next:hover,
+.masdarcity-tickers-button-prev:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.masdarcity-tickers-button-next {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAYCAYAAAD6S912AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAABK0lEQVQ4y83VsUpDMRiG4fdLIuINFFRQUFSkg4LXI7iLWwfBDkKpoIN7F69CHJwEQVAsVnCR4n04aONQpSexxZycDgYy5EAevp/zJ5H3nmkOw7SH9z6YoF1hX4XpALXS++MPwvaE8cJ40NVfaAJI8wf8njfAYjYIzIHOQ1R3wHIuCOBAZ1HSe2AlFwSE0Ikwg0LSR2CtCohQKyq/C2xUARE6isp/BupVQECNCO0D21VAQAdR+Zfx/rJH7x0YFNYzCUdvYsJ9YT5G6ewbsJNbciNsH/MCbiv3pzSF+Swk64Grg8tqm+MIewK3OcTKgRbUjtqkC259hKWDs6DTELMP4FZDzKVeXzqMkt2CW/qNJYImuGDtNbiF8VhyydoTti90AWZ+MjYe1L9/9b4A/qYdXCZuw58AAAAASUVORK5CYII=);
+}
+
+.masdarcity-tickers-button-prev {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAYCAYAAAD6S912AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAABMUlEQVQ4y83VsUoDQRSF4f/cCagvEFBBQVGRFAq2vopgY2WbzhSCKGhhb2Mn+ASCVlaCYjCCjQSfRN1JkUQ3szE6sym8y5TzMWe4d1bee8ZZxrjLez+wulUZsWxa6Fy4Nmi7sD8SnAF3I8wL84ZrhfsrEWHmRHYBbH6lI7tMjbwo3EP/ZMI86BiYSIm8LKwZYIeAG3qgX8BV4Z5y2KfQPujnhCPAmnCtAGsIkQKuCXvJYZlQXXS/WHBDuLcc9gHa7WPRoNB1PiZoB8RfwWGj9x6M5mTZ0VsX1g7apJ4cuVc1Yc95VGivDAiwItQM0IMyIMCS0GPQPkdlQIAFYffBnZ70uj8JBJgXugvQU2AqFQSYFXY7eKc0yoAAVdDVN1h8YGNBgKqwM+FeQVuFSfv3f70OtzcEpErr2bsAAAAASUVORK5CYII=);
+}
+
+.masdarcity-tickers-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.masdarcity-tickers-clipper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 1em;
+  left: 100%;
+}
+
+a.masdarcity-ticker-link {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  color: inherit !important;
+  vertical-align: inherit;
+  text-decoration: none;
+  background-color: transparent !important;
+}
+
+a.masdarcity-ticker-link:hover,
+a.masdarcity-ticker-link:focus {
+  background-color: transparent !important;
+  text-decoration: none;
+  outline: 0;
+}
+
+.masdarcity-tickers-no-title .masdarcity-tickers-title {
+  padding: 0 5px;
+}
+
+.masdarcity-tickers-no-title .masdarcity-tickers-title:before {
+  content: "";
+  display: inline-block;
+}
+
+.masdarcity-tickers-size-normal {
+  font-size: 100%;
+}
+
+.masdarcity-tickers-size-small {
+  font-size: 75%;
+}
+
+.masdarcity-tickers-size-medium {
+  font-size: 125%;
+}
+
+.masdarcity-tickers-size-large {
+  font-size: 150%;
+}
+
+.masdarcity-tickers-size-huge {
+  font-size: 200%;
+}
+
+.masdarcity-tickers-light .masdarcity-tickers-title {
+  color: #333;
+}
+
+.masdarcity-tickers-style-border {
+  border-style: solid;
+}
+
+.masdarcity-tickers-style-solid {
+  border-style: solid;
+}
+
+.masdarcity-tickers-style-solid .masdarcity-tickers-content {
+  color: #fff;
+  background-color: transparent;
+}
+
+.masdarcity-tickers-style-solid.masdarcity-tickers-light
+  .masdarcity-tickers-content {
+  color: #333;
+}
+
+/*Quick Launch*/
+.div-quick-launch {
+  border: 1px solid rgb(0, 168, 169) !important;
+}
+.p-quick-launch {
+  background-color: rgb(0, 168, 169);
+}
+.span-panel-text {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+.div-sp-type-tile {
+  width: calc(25% - 5px);
+  height: 88.8889px;
+}
+.div-masdarcity-tile-bg {
+  line-height: 88.8889px;
+}
+.div-masdarcity-tile-bg-color {
+  opacity: 1;
+  background-color: rgb(0, 168, 169);
+}
+.i-masdarcity-icon-normal {
+  font-size: 53.3333px;
+}
+.div-masdarcity-resize-keep-transition {
+  font-size: 100%;
+  top: 45px;
+}
+.div-masdarcity-tile-description-wrap {
+  height: 45px;
+}
+
+.div-quick-download-masdarcity-panel-style-solid-header {
+  border: 1px solid rgb(0, 168, 169) !important;
+}
+.div-quick-download {
+  background-color: rgb(0, 168, 169);
+}
+.div-quick-download-title {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+.div-quick-download-masdarcity-listitem-column {
+  font-size: 1em;
+  width: 26px;
+}
+
+.div-quick-download-masdarcity-icon {
+  font-size: 26px;
+}
+
+.quick-download-masdarcity-listitem-title {
+  color: rgb(0, 168, 169);
+}
+
+.div-quick-download-masdarcity-panel-style-solid-header {
+  border: 1px solid rgb(0, 168, 169) !important;
+}
+.div-quick-download-masdarcity-listitem-title {
+  color: rgb(0, 168, 169) !important;
+  font-size: 16px !important;
+}
+
+.div-quick-download-sp-type-file-list-item {
+  border-bottom-style: solid !important;
+  border-bottom-width: 1px !important;
+  border-color: #e1e1e1 !important;
+  margin-top: 0.85em !important;
+}
+
+.masdarcity-panel-link {
+  color: grey !important;
+  background-color: white !important;
+}
+
+.sp-ptst0 {
+  opacity: 0.4;
+  fill: #231f20;
+}
+
+.sp-ptst1 {
+  fill: #fff;
+}
+
+.sp-ptst2 {
+  fill: #f5ba9d;
+}
+
+.sp-ptst3 {
+  fill: #909090;
+}
+
+.sp-ptst4,
+.sp-ptst5 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #fff;
+}
+
+.sp-ptst5 {
+  fill: #d04727;
+}
+
+.sp-ptst6 {
+  enable-background: new;
+}
+
+.sp-ptst7 {
+  clip-path: url(#sp_pptx_SVGID_2);
+}
+
+.sp-xlst0 {
+  opacity: 0.4;
+  fill: #231f20;
+}
+
+.sp-xlst1 {
+  fill: #fff;
+}
+
+.sp-xlst2,
+.sp-xlst3,
+.sp-xlst4,
+.sp-xlst5 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #999;
+}
+
+.sp-xlst3,
+.sp-xlst4,
+.sp-xlst5 {
+  fill: #86bfa0;
+}
+
+.sp-xlst4,
+.sp-xlst5 {
+  fill: #207347;
+}
+
+.sp-xlst5 {
+  fill: #fff;
+}
+
+.sp-xlst6 {
+  fill: #207347;
+}
+
+.sp-xlst7 {
+  opacity: 0.8;
+}
+
+.sp-dxst0 {
+  opacity: 0.4;
+  fill: #231f20;
+}
+
+.sp-dxst1 {
+  fill: #fff;
+}
+
+.sp-dxst2 {
+  fill: #999;
+}
+
+.sp-dxst3,
+.sp-dxst4 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #fff;
+}
+
+.sp-dxst4 {
+  fill: #2c5898;
+}
+
+.sp-dxst5 {
+  enable-background: new;
+}
+
+.sp-dxst6 {
+  clip-path: url(#sp_docx_SVGID_2);
+}
+
+.sp-dxst7 {
+  fill: #2c5898;
+}
