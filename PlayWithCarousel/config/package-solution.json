@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "masdar-city-play-with-carousel-client-side-solution",
+    "id": "c8e81ee3-929a-412e-94a0-ef7fc30202ef",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "MasdarCity-PlayWithCarousel description"
+      },
+      "longDescription": {
+        "default": "MasdarCity-PlayWithCarousel description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "masdar-city-play-with-carousel Feature",
+        "description": "The feature that activates elements of the masdar-city-play-with-carousel solution.",
+        "id": "1bb72e31-b7b0-41d7-956e-bc2cbfd3bf94",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/masdar-city-play-with-carousel.sppkg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.4",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "masdar-city-play-with-carousel",
+    "libraryId": "c8e81ee3-929a-412e-94a0-ef7fc30202ef",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "MasdarCity-PlayWithCarousel",
+    "solutionShortDescription": "MasdarCity-PlayWithCarousel description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

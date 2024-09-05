@@ -1,14 +1,14 @@
 import * as React from 'react';
-import styles from './HomeCarousel.module.scss';
-import { IHomeCarouselProps } from './IHomeCarouselProps';
+import styles from './PlayWithCarousel.module.scss';
+import { IPlayWithCarouselProps } from './IPlayWithCarouselProps';
 import { Carousel, CarouselButtonsLocation, CarouselButtonsDisplay, ICarouselImageProps } from "@pnp/spfx-controls-react/lib/Carousel";
 import { ImageFit } from 'office-ui-fabric-react/lib/Image';
 import { WebPartTitle } from "@pnp/spfx-controls-react/lib/WebPartTitle";
 import { Placeholder } from '@pnp/spfx-controls-react/lib/Placeholder';
 
-export default class HomeCarousel extends React.Component<IHomeCarouselProps, {}> {
+export default class PlayWithCarousel extends React.Component<IPlayWithCarouselProps, {}> {
 
-  public render(): React.ReactElement<IHomeCarouselProps> {
+  public render(): React.ReactElement<IPlayWithCarouselProps> {
     const {
       hasTeamsContext,
       elements,
@@ -37,13 +37,13 @@ export default class HomeCarousel extends React.Component<IHomeCarouselProps, {}
     return (
       <>
       <WebPartTitle displayMode={displayMode}
-      title=""
+      title="Carousel Web Part"
       updateProperty={updateProperty} />
       {listGuid ?
       <div  className="sp-type-row sp-meta-allow-content sp-meta-parent masdarcity-child masdarcity-row masdarcity-resize masdarcity-grid-no-bg">
         <div className="sp-type-column sp-meta-allow-content masdarcity-child masdarcity-col-separator-none masdarcity-commons-padding-wrap masdarcity-grid-with-bg masdarcity-commons-no-margin-mobile masdarcity-commons-no-padding-mobile masdarcity-col masdarcity-col-md masdarcity-col-md-8" style={{visibility: 'visible', overflow: 'hidden', height: 'auto', boxSizing: 'border-box',verticalAlign: 'middle',backgroundPosition: 'center center',backgroundSize: 'cover',WebkitBoxSizing: 'border-box'}}>
           <div className="sp-type-slideshow sp-meta-allow-content slick-cloned masdarcity-child masdarcity-slideshow masdarcity-dynamic-227 masdarcity-slideshow-style-title-first masdarcity-slideshow-align-center" style={{width: '728px', fontSize: '100%', minHeight: '400px'}}>
-            <section className={`${styles.HomeCarousel} ${hasTeamsContext ? styles.teams : ''}`}>
+            <section className={`${styles.playWithCarousel} ${hasTeamsContext ? styles.teams : ''}`}>
               <div>
                 <Carousel
                   buttonsLocation={CarouselButtonsLocation.top}

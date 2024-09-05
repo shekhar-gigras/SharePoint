@@ -1,7 +1,6 @@
 import { DisplayMode } from "@microsoft/sp-core-library";
 import { WebPartContext } from "@microsoft/sp-webpart-base";
-import { ICarouselElement } from "./ICarouselElement";
-export interface IHomeCarouselProps {
+export interface IPlayWithCarouselProps {
   description: string;
   isDarkTheme: boolean;
   environmentMessage: string;
@@ -15,4 +14,11 @@ export interface IHomeCarouselProps {
   listGuid: string;
   linkname:string;
   Link:string;
+}
+
+export interface ICarouselElement {
+  imageSrc: string;
+  title: string;
+  description: string;
+  url: string;
 }

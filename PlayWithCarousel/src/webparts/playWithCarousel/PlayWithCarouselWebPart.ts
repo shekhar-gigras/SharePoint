@@ -8,16 +8,15 @@ import {
 import { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';
 import { IReadonlyTheme } from '@microsoft/sp-component-base';
 
-import * as strings from 'HomeCarouselWebPartStrings';
-import HomeCarousel from './components/HomeCarousel';
-import { IHomeCarouselProps } from './components/IHomeCarouselProps';
+import * as strings from 'PlayWithCarouselWebPartStrings';
+import PlayWithCarousel from './components/PlayWithCarousel';
+import { IPlayWithCarouselProps, ICarouselElement } from './components/IPlayWithCarouselProps';
 import { PropertyFieldListPicker, PropertyFieldListPickerOrderBy } from '@pnp/spfx-property-controls/lib/PropertyFieldListPicker';
 import { getSP } from '../pnpjsConfig';
 import { SPFI } from '@pnp/sp';
-import { ICarouselElement } from './components/ICarouselElement';
 
 
-export interface IHomeCarouselWebPartProps {
+export interface IPlayWithCarouselWebPartProps {
   description: string;
   title: string;
   list: string;
@@ -25,7 +24,7 @@ export interface IHomeCarouselWebPartProps {
   link:string;
 }
 
-export default class HomeCarouselWebPart extends BaseClientSideWebPart<IHomeCarouselWebPartProps> {
+export default class PlayWithCarouselWebPart extends BaseClientSideWebPart<IPlayWithCarouselWebPartProps> {
 
   private _isDarkTheme: boolean = false;
   private _environmentMessage: string = '';
@@ -49,7 +48,7 @@ export default class HomeCarouselWebPart extends BaseClientSideWebPart<IHomeCaro
         url: 'https://masdarcity.ae/sustainable-urban-development/Sustainability-at-masdar-city',
       },     
     ];
-    const _sp:SPFI = getSP(this.context);
+    let _sp:SPFI = getSP(this.context);
     if(this.properties.list && this.properties.list !== '') {
       console.log('context',_sp)
       const items = _sp.web.lists.getById(this.properties.list).items.select().orderBy('SortOrder',true)();
@@ -65,8 +64,8 @@ export default class HomeCarouselWebPart extends BaseClientSideWebPart<IHomeCaro
       });       
     }
 
-    const element: React.ReactElement<IHomeCarouselProps> = React.createElement(
-      HomeCarousel,
+    const element: React.ReactElement<IPlayWithCarouselProps> = React.createElement(
+      PlayWithCarousel,
       {
         description: this.properties.description,
         isDarkTheme: this._isDarkTheme,
@@ -161,7 +160,7 @@ export default class HomeCarouselWebPart extends BaseClientSideWebPart<IHomeCaro
                   onPropertyChange: this.onPropertyPaneFieldChanged.bind(this),
                   properties: this.properties,
                   context: this.context,
-                  // onGetErrorMessage: null as any,
+                  onGetErrorMessage: null as any,
                   deferredValidationTime: 0,
                   key: 'listPickerFieldId'
                 })
